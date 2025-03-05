@@ -45,7 +45,7 @@
                         bindings = <
    &kp ESC   &kp EXCL  &kp AT    &kp HASH &kp DLLR  &kp PRCNT   &kp CARET &kp AMPS &kp ASTRK &kp LPAR &kp RPAR &kp BSPC
    &bt TAB   &kp N1    &kp N2    &kp N3   &kp N4    &kp N5      &kp N6    &kp N7   &kp N8    &kp N9   &kp SEMI &kp SQT
-   &kp LCTRL &kp MINUS &kp EQUAL &kp BSLH &kp LBKT  &kp RBKT    &kp GRAVE &kp N0   &p COMMA  &kp DOT  &kp c &kp RALT
+   &kp LCTRL &kp MINUS &kp EQUAL &kp BSLH &kp LBKT  &kp RBKT    &kp GRAVE &kp N0   &kp COMMA &kp DOT  &kp c &kp RALT
                            &kp LGUI &kp SPACE &trans            &trans    &kp RET  &kp RSHFT
                         >;
 // -----------------------------------------------------------------------------------------
@@ -55,7 +55,7 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
 //                        bindings = <
 //   &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
-//   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
+//   &kt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
 //   &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &trans &trans
 //                                    &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
 //                        >;

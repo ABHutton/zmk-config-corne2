@@ -46,7 +46,7 @@
    &kp ESC   &kp EXCL  &kp AT    &kp HASH &kp DLLR  &kp PRCNT   &kp CARET &kp AMPS &kp ASTRK &kp LPAR &kp RPAR &kp BSPC
    &kp TAB   &kp N1    &kp N2    &kp N3   &kp N4    &kp N5      &kp N6    &kp N7   &kp N8    &kp N9   &kp SEMI &kp SQT
    &kp LCTRL &kp MINUS &kp EQUAL &kp BSLH &kp LBKT  &kp RBKT    &kp GRAVE &kp N0   &kp COMMA &kp DOT  &kp c &kp RALT
-                           &kp LGUI &kp SPACE &trans            &trans    &kp RET  &kp RSHFT
+                                 &kp LGUI &kp SPACE &trans      &trans    &kp RET  &kp RSHFT
                         >;
 // -----------------------------------------------------------------------------------------
 // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BSPC |
@@ -68,10 +68,10 @@
 // | CTRL |      |     |  F11   | F12      |     |   |  _   |  +   |  ,   |  .   |  /  | ALT  |
 //                     | GUI    | SPC      |     |   |      | ENT  | SHFT |
                         bindings = <
-   &kp  ESC  &kp F1 &kp F2 &kp F3   &kp F4    &kp F5   &kp F6     &kp F7   &kp F8 &kp F9    &kp F10  &kp BSPC
-   &kp TAB   &trans &trans &trans   &trans    &trans   &kp LEFT   &kp DOWN &kp UP &kp RIGHT &kp SEMI &kp SQT
-   &kp LCTRL &trans &trans &kp F11  &kp F12   &trans   &trans     &trans   &trans &kp COMMA &kp DOT  &kp RALT
-                           &kp LGUI &kp SPACE &trans   &trans RET &kp RET  &kp RSHFT
+   &kp  ESC  &kp F1   &kp F2  &kp F3      &kp F4        &kp F5 &kp F6     &kp F7   &kp F8 &kp F9    &kp F10  &kp BSPC
+   &kp TAB   &kp HOME &kp END &kp PAGE_UP &kp PAGE_DOWN &kp    &kp LEFT   &kp DOWN &kp UP &kp RIGHT &kp SEMI &kp SQT
+   &kp LCTRL &trans   &trans  &kp F11     &kp F12       &trans &trans     &trans   &trans &kp COMMA &kp DOT  &kp RALT
+                              &kp LGUI    &kp SPACE     &trans &trans RET &kp RET  &kp RSHFT
                         >;
 // -----------------------------------------------------------------------------------------
 // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BSPC |
